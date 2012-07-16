@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# Zing Redirector
-# hungnv 
-# A redirector based on tornado `hello world`  example :D 
 
 import tornado.httpserver
 import tornado.ioloop
