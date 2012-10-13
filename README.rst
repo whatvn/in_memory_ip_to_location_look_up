@@ -4,6 +4,7 @@ in_memory_ip_to_location_look_up
 Query mysql database, create in-memory database using tree-map likes (in Java) for fast lookup.
 
 This project aims to be model of ip to location services, used to create localized CDN.
+It talks about the idea, not about how to implement.
 
     :: TO BUILD 
 
