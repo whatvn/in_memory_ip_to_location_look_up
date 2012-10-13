@@ -19,8 +19,8 @@ This project aims to be model of ip to location services, used to create localiz
     +----------+----------+------+-----+---------+-------+
     | beginIP  | char(20) | NO   |     | NULL    |       |
     | endIP    | char(20) | NO   |     | NULL    |       |
-    | beginNUM | int(15)  | NO   |     | NULL    |       |
-    | endNUM   | int(15)  | NO   | PRI | NULL    |       |
+    | beginNUM | bigint(20)  | NO   |     | NULL    |       |
+    | endNUM   | bigint(20)  | NO   | PRI | NULL    |       |
     | ISP      | char(10) | NO   |     | NULL    |       |
     | location | char(20) | NO   |     | NULL    |       |
     | service  | char(20) | NO   |     | NULL    |       |
@@ -31,7 +31,7 @@ This project aims to be model of ip to location services, used to create localiz
 
 
 
-- create index on endNUM column, Modify configuration and start using this project. 
+- create index on endNUM column, import csv file created in previous steps. Modify configuration and start using this project. 
 
 
 

@@ -6,11 +6,8 @@ import tornado.options
 import tornado.web
 import sys 
 from os import getcwd, mkdir
-from os.path import isdir 
-from time import time, ctime  
 from ConfigParser import SafeConfigParser
 from tornado.options import define, options
-from httplib import HTTPConnection 
 from model import IPGeo
 
 config_file = 'config.ini' 
